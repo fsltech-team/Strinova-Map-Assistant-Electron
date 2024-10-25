@@ -10,7 +10,6 @@
     "start": "nodemon --watch main.js --exec yarn run build",
     "build": "electron ."
   },
-  "dependencies": {},
   "devDependencies": {
     "electron": "31.2.1",
     "nodemon": "^3.1.7"
