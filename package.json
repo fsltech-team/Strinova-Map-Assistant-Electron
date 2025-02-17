@@ -4,8 +4,9 @@
   "description": "Strinova Map Assistant",
   "keywords": [],
   "main": "./main.js",
+  "homepage": "./",
   "version": "1.0.0",
-  "author": "acer",
+  "author": "fsltech",
   "scripts": {
     "start": "nodemon --watch main.js --exec yarn run build",
     "build": "electron ."
@@ -13,5 +14,13 @@
   "devDependencies": {
     "electron": "31.2.1",
     "nodemon": "^3.1.7"
-  }
-}
+  },
+"build": {
+    "extraResources": [
+      {
+        "from":"assets/",
+        "to":"assets/"
+      }
+    ]
+    }
+ }
